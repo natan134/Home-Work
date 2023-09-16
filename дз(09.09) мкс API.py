@@ -1,4 +1,5 @@
 import requests 
+from math import pow
 response = requests.get("https://api.wheretheiss.at/v1/satellites/25544").json()
 latitude = float(response['latitude'])
 longitude = float(response['longitude'])
