@@ -18,3 +18,4 @@ start_time1 = time.time()
 
 def shaker_sort(array2):
     left = 0
+    right = len(array2) - 1
