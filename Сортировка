@@ -11,3 +11,5 @@ for i in range(len(array)):
 end_time = time.time()
 execution_time = end_time - start_time
 print("Время выполнения сортировки пузырьком:", execution_time, "секунд")
+
+# Шейкерная сортировка
