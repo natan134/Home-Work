@@ -2,3 +2,4 @@
 import random
 import time
 #Пузырьком
+array = [random.randint(0, 999999) for _ in range(50000000)]
