@@ -13,3 +13,4 @@ execution_time = end_time - start_time
 print("Время выполнения сортировки пузырьком:", execution_time, "секунд")
 
 # Шейкерная сортировка
+array2 = [random.randint(0, 999999) for _ in range(50000000)]
