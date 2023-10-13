@@ -22,7 +22,7 @@ for h2 in h2_tegs:
         #цифры для названия
         art_numb = art_url.split('/')[-2]
 
-        #статья для файлика
+        #статья для файликa
         art_r = requests.get(art_url)
 
         #в файлик
